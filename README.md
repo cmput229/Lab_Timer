@@ -74,4 +74,4 @@ Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are t
 
 ## Submission
 
-There is a single file to be submitted for this lab. The file name should be `lab4.s`, and it should contain the code for both the interrupt handler and the main (i.e., your file must contain all the code for a successful countdown timer execution). Use the link provided in the course eClass page for submission. Your solution MUST include the [CMPUT 229 Student Submission License](LICENSE.md) at the top of the file containing your solution and you must include your name in the appropriate place in the license text.
+There is a single file to be submitted for this lab. The file name should be `lab4.s`, and it should contain the code for both the interrupt handler and the `main` (i.e., your file must contain all the code for a successful countdown timer execution). Use the link provided in the course eClass page for submission. Your solution MUST include the [CMPUT 229 Student Submission License](LICENSE.md) at the top of the file containing your solution and you must include your name in the appropriate place in the license text.
