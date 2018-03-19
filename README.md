@@ -30,7 +30,7 @@ Memory-mapped IO allows interaction with external devices through an interface p
 
 The keyboard control register is mapped to address `0xffff 0000`. Set bit 1 to enable interrupts. When a keyboard interrupt occurs (i.e., a key is pressed), the hardware will set bit 0 of the control register.
 
-The keyboard data register is mapped to address `0xffff 0004`. The ASCII keycode of the last character typed will be stored in this register.
+The keyboard data register is mapped to address `0xffff 0004`. The ASCII keycode of the last character typed will be stored at this address in memory.
 
 The display control register is mapped to address `0xffff 0008`. Your code should poll bit 0 (i.e., check it inside a loop) to see when the display is ready for output. The display will set bit 0 when it is ready for the next character.
 
