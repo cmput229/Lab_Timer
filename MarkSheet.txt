@@ -6,9 +6,9 @@ Final Mark:           /100 MARKS TOTAL
                 =====
 Part 1:         _____ /8 Proper Startup
 
-Part 2:         _____ /36 Keyboard Input
+Part 2:         _____ /30 Keyboard Input
 
-Part 3:         _____ /36 Countdown Display & Behaviour
+Part 3:         _____ /42 Countdown Display & Behaviour
 
 Part 4:		_____ /20 Style
 
@@ -23,19 +23,21 @@ Part 1: Proper Startup
 Part 2: Keyboard Input
 
 
- _____ /36
+ _____ /30
 
 	Test 2 _____ /6 Test 3 _____ /6 Test 4 _____ /6 
 
-	Test 5 _____ /6 Test 6 _____ /6 Test 7 _____ /6
+	Test 5 _____ /6 Test 6 _____ /6
 ------------------------------------------------------------------------
 Part 3: Countdown Display & Behaviour
 
- _____ /36
+ _____ /42
 
-	Test 8 _____ /6 Test 9 _____ /6 Test 10 _____ /6 
+	Test 7 _____ /6  Test 8 _____ /6  Test 9 _____ /6
 
-	Test 11 _____ /6 Test 12 _____ /6 Test 13 _____ /6
+	Test 10 _____ /6 Test 11 _____ /6 Test 12 _____ /6
+
+ 	Test 13 _____ /6
       
 ------------------------------------------------------------------------
 Part 4: Style
