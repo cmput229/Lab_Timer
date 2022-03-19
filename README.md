@@ -2,7 +2,7 @@
 
 ## Information
 
-In this lab, you will learn about the coordination of asynchronous operations, such as interruptions, with the processor. Instead of using `syscall`s, in this assignment, you will handle all input and output using interruption handlers and memory-mapped device access. The only place where you will use `syscall`s in this lab is to print the prompt `Seconds=` and to read the integer value specifying the number of seconds to specify the start of the timer. All other display functions should be handled through your interruption handler and memory-mapped device access.
+In this lab, you will learn about the coordination of asynchronous operations, such as interruptions, with the processor. Instead of using `syscall`s, in this assignment, you will handle all input and output using interruption handlers and memory-mapped device access. The only place where you will use `syscall`s in this lab is to print the prompt `Seconds=`. All other display functions should be handled through your interruption handler and memory-mapped device access.
 
 ### Interrupts
 
@@ -50,9 +50,9 @@ This directive specifies that the symbol `__start` is globally visible. This sym
 
 ## Assignment
 
-Your assignment is to implement a countdown timer in MIPS assembly, that reads in a time in seconds, counts down that time to zero, and then quits. Without using any reading or printing `syscall`s, the timer must do all of the following:
+Your assignment is to implement a countdown timer in MIPS assembly, that reads in a time in seconds, counts down that time to zero, and then quits. Without using any reading or printing `syscall`s (except for printing the prompt), the timer must do all of the following:
 
-*   Upon starting, display `Seconds=` on screen.
+*   Upon starting, display the `Seconds=` prompt on screen.
 *   Allow the user to enter digits, showing them on-screen.
 *   When the user presses enter, move to a new line and begin displaying the countdown timer with the following format: `mm:ss`. The timer must be updated in-place and not keep printing across the line or down lines.
 *   When `q` is pressed, or when the timer reaches `00:00`, quit the application.
